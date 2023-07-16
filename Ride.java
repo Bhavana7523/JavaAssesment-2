@@ -13,7 +13,7 @@ public class Ride{
          float distance=sc.nextFloat();
          System.out.print("Car Requested : ");
          String carname=sc.next();
-         BikeDetails r= new BikeDetails();
+         CarDetails r= new CarDetails();
          r.CarInformation();
          r.findMinDis(carname, min_dis);
          boolean state = r.checkVehiclePresent(carname);
